@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body {
+  background-color: #009999;
+  display: flex;
+  padding: 0%;
+  margin: 0%;
+  justify-content: center;
+
+}
+
+.flex {
+  display: flex;
+}
+
+/* Element Sslector */
+div {
+  border: solid thin black;
+  width: 800px;
+  height: 1450px;
+  background-color: white;
+
+  margin-top: 95px;
+  padding: 40px;
+}
+
+h2 {
+
+  text-align: center;
+  font-family: "Roboto Mono", Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+  font-family: "Roboto Mono", Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+p {
+  font-family: "Fira Code", monospace, Arial;
+  text-shadow: 0.2px 0.3px;
+  font-weight: normal;
+}
+
+li {
+  font-family: "Fira Code", monospace, Arial;
+  padding: 5px
+}
+
+/* Class Selector */
+.Camus-GenInfo {
+
+  margin-top: 60px;
+}
+
+.Camus-Happnies {
+  font-family: "Fira Code", monospace, Arial;
+  padding: 0.40rem;
+  word-spacing: 3px;
+  font-weight: normal;
+  margin-left: 25px;
+}
