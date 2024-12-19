@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+* {
+  justify-content: center;
+}
+
 
 body {
-  background-color: #009999;
+  background-color: #556868;
   display: flex;
   padding: 0%;
   margin: 0%;
-  justify-content: center;
+
+
 
 }
 
@@ -14,20 +19,24 @@ body {
   display: flex;
 }
 
+
 /* Element Sslector */
 div {
   border: solid thin black;
   width: 800px;
-  height: 1450px;
+  height: 1900px;
   background-color: white;
-
+  justify-content: center;
   margin-top: 95px;
+  margin-bottom: 95px;
   padding: 40px;
 }
 
 h2 {
-
+  background-color: aliceblue;
   text-align: center;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.798);
   font-family: "Roboto Mono", Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -60,4 +69,32 @@ li {
   word-spacing: 3px;
   font-weight: normal;
   margin-left: 25px;
+}
+
+
+.Sources {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.SourcesCm,
+ul {
+  list-style: none;
+  color: black;
+
+}
+
+a {
+  margin-left: 10px;
+  color: black;
+}
+
+.SourcesCm,
+a:hover {
+  color: blue;
+}
+
+.CamusImage {
+  margin-top: 120px;
+  margin-left: 200px;
 }
